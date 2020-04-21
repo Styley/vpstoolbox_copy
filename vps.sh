@@ -419,7 +419,7 @@ fi
 
 if [[ ${test1} == 0 ]] && [[ ${test2} == 0 ]] && [[ ${test3} == 0 ]] && [[ -z ${myipv6} ]]; then
 	colorEcho ${ERROR} "你的ip(v4)被墙了，滚蛋！"
-	exit 1
+	#exit 1
 fi
 
 clear
